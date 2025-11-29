@@ -1,12 +1,33 @@
 
 
-# ✅ **README.md 
+# ✅ **NEW README.md **
 
 ````markdown
 # 🍽️ Foodigo – Food Ordering Web App (MERN)
 
-Foodigo is a full-stack food ordering application built using the **MERN stack (MongoDB, Express, React, Node.js)**.  
-It provides a smooth user experience with category-wise food browsing, cart system, authentication, and admin management.
+Foodigo is a modern food-ordering web application built with the **MERN stack (MongoDB, Express, React, Node.js)**.  
+It provides a seamless user experience for browsing food items, ordering food, managing accounts, and handling shop owners & delivery boy roles.
+
+---
+
+## 🖼️ Screenshots
+
+### ⭐ Home Page
+![Home Page](./screenshots/home.png)
+
+### ⭐ Sign Up Page  
+![Signup Page](./screenshots/signup.png)
+
+### ⭐ Sign In Page  
+![Signin Page](./screenshots/signin.png)
+
+> ⚠️ **NOTE:**  
+> Create a folder named **`screenshots`** inside your project root and save your images as:  
+> - `home.png`  
+> - `signup.png`  
+> - `signin.png`  
+>  
+> GitHub will automatically show them.
 
 ---
 
@@ -21,28 +42,22 @@ It provides a smooth user experience with category-wise food browsing, cart syst
 - Suggested food items section
 - User authentication (Login / Signup)
 
-### Home Page
-![Home Page](./screenshots/home.png)
+### ⭐ Owner Features
+- Add / edit / delete food items  
+- Manage shop menu  
+- Handle incoming orders  
 
-### Sign Up Page
-![Sign Up Page](./screenshots/signup.png)
-
-### Sign In Page
-![Sign In Page](./screenshots/signin.png)
-
-
-### ⭐ Admin Features
-- Add / Edit / Delete food items
-- Manage categories
-- Dashboard analytics
-- Order management
+### ⭐ Delivery Boy Features
+- Get delivery assignments  
+- Update delivery status  
 
 ### ⭐ Technical Features
-- MERN full-stack architecture
-- Redux Toolkit for state management
-- JWT Authentication
-- Tailwind CSS UI
-- RESTful APIs
+- MERN full-stack architecture  
+- Redux Toolkit global state  
+- JWT Authentication  
+- TailwindCSS modern UI  
+- Firebase Google Login  
+- REST APIs  
 
 ---
 
@@ -53,7 +68,8 @@ It provides a smooth user experience with category-wise food browsing, cart syst
 | Frontend | React.js, Redux Toolkit, Tailwind CSS |
 | Backend | Node.js, Express.js |
 | Database | MongoDB |
-| Auth | JWT |
+| Auth | JWT, Firebase Google Auth |
+| UI | Tailwind CSS |
 | Deployment | Vercel (frontend), Render (backend) |
 
 ---
@@ -82,9 +98,11 @@ cd ../backend
 npm install
 ```
 
-### 3️⃣ Setup Environment Variables
+---
 
-Create a `.env` file in `/backend` and add:
+## 🔑 Environment Variables
+
+Create a `.env` file in the backend folder and add:
 
 ```
 PORT=8000
@@ -112,10 +130,10 @@ cd frontend
 npm start
 ```
 
-Your app will run at:
+Your app runs on:
 
-👉 **Frontend:** [http://localhost:3000](http://localhost:3000)
-👉 **Backend:**  [http://localhost:8000](http://localhost:8000)
+* **Frontend:** [http://localhost:3000](http://localhost:3000)
+* **Backend:** [http://localhost:8000](http://localhost:8000)
 
 ---
 
@@ -144,8 +162,8 @@ Foodigo/
 
 ## 🤝 Contributing
 
-Pull requests are welcome!
-For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome!
+For major changes, please open an issue first to discuss what you'd like to improve.
 
 ---
 
@@ -155,7 +173,7 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 💡 Author
+## 👨‍💻 Author
 
 **Sanket Kharat**
 GitHub: [https://github.com/kharatsanket](https://github.com/kharatsanket)
@@ -164,12 +182,41 @@ GitHub: [https://github.com/kharatsanket](https://github.com/kharatsanket)
 
 ---
 
-If you want, I can also create:
+# ✅ NEXT STEPS FOR YOU  
+To make screenshots work on GitHub:
 
-✔ Project logo  
-✔ Screenshots section  
-✔ Badges (build, license, tech stack)  
-✔ Deployment instructions  
+1. Create folder in project root:
+```
+
+foodigo/screenshots/
+
+```
+2. Save images as:
+```
+
+home.png
+signup.png
+signin.png
+
+```
+3. Commit & push:
+
+```
+
+git add .
+git commit -m "Added screenshots to README"
+git push
+
+```
+
+---
+
+If you want, I can also:
+
+✔ Add project logo  
+✔ Add GIF preview  
+✔ Add dark mode screenshots  
+✔ Add badges (MERN, Tailwind, Firebase, MongoDB)
 
 Just tell me!
 ```
