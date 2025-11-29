@@ -21,6 +21,16 @@ It provides a smooth user experience with category-wise food browsing, cart syst
 - Suggested food items section
 - User authentication (Login / Signup)
 
+### Home Page
+![Home Page](./screenshots/home.png)
+
+### Sign Up Page
+![Sign Up Page](./screenshots/signup.png)
+
+### Sign In Page
+![Sign In Page](./screenshots/signin.png)
+
+
 ### ⭐ Admin Features
 - Add / Edit / Delete food items
 - Manage categories
