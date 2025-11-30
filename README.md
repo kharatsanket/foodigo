@@ -13,7 +13,7 @@ It provides a seamless user experience for browsing food items, ordering food, m
 ## 🖼️ Screenshots
 
 ### ⭐ Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshots/home1.png)
 
 ### ⭐ Sign Up Page  
 ![Signup Page](./screenshots/signup.png)
